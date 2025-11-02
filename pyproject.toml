@@ -1,0 +1,38 @@
+[project]
+name = "pyhtml-htmx"
+version = "0.1.0"
+description = "HTMX integration for pyhtml - build dynamic HTML with HTMX attributes"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{ name = "Ylan Allouche" }]
+
+keywords = ['html', 'htmx', 'pyhtml', 'hypermedia']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Typing :: Typed",
+]
+
+requires-python = ">=3.10"
+dependencies = [
+    "pyhtml-enhanced >=2.2.4",
+    "typing-extensions >=4.12.2"
+]
+
+[project.urls]
+homepage   = "https://github.com/YlanAllouche/pyhtml-htmx"
+repository = "https://github.com/YlanAllouche/pyhtml-htmx"
+"Bug Tracker" = "https://github.com/YlanAllouche/pyhtml-htmx/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["pyhtml_htmx*"]
+
+[tool.setuptools.package-data]
+pyhtml_htmx = ["py.typed", "*.json"]
