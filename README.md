@@ -18,6 +18,12 @@ HTMX integration for [PyHTML](https://github.com/COMP1010UNSW/pyhtml-enhanced) -
 ### From GitHub
 
 ```bash
+pip install pyhtml-htmx
+```
+
+### From GitHub
+
+```bash
 pip install git+https://github.com/YlanAllouche/pyhtml-htmx.git
 ```
 
